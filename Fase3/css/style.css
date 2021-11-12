@@ -1,0 +1,21 @@
+header{
+    background-color: brown;
+}
+nav{
+    background-color: chartreuse;
+}
+section{
+    background-color: cyan;
+    grid-column:1/4 ;
+}
+aside{
+    background-color: darkolivegreen;
+    grid-column:4/5 ;
+}
+footer{
+    background-color: deeppink;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
